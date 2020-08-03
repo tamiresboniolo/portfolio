@@ -1,0 +1,267 @@
+<!--Author: Tamires Boniolo -->
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<link rel= "stylesheet" type="text/css" href="css/portfolio_style.css">
+
+	<!--Link to the icons in the contact section-->
+	<link
+	  rel="stylesheet"
+	  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+	  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+	  crossorigin="anonymous"
+	/>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+	<!--Google Raleway font link-->
+	<link
+	  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+	  rel="stylesheet"
+	/>
+	
+	<!--NAVBAR -->
+	<nav id="navbar" class="nav">
+	  <ul class="nav-list">
+		<li>
+		  <a href="#about" class="page-ink">ABOUT</a>
+		</li>
+		<li>
+		  <a href="#education" class="page-link">EDUCATION</a>
+		</li>
+		<li>
+		  <a href="#experience" class="page-link">EXPERIENCE</a>
+		</li>
+		<li>
+		  <a href="#projects" class="page-link">PROJECTS</a>
+		</li>
+		 <li>
+		  <a href="#contact" class="page-link">CONTACT</a>
+		</li>
+	  </ul>
+	</nav>
+
+	<!-- WELCOME SECTION -->
+	<section id="welcome-section" class="welcome-section">
+	   <h1>Hello, I'm <span id="name">Tamires Boniolo</span></h1>    
+	   <p> Software Engineer</p>
+	   
+		<a href="https://github.com/tamiresboniolo/images/files/4553326/Tamires.Boniolo.Resume.pdf"
+		class="button btn-resume-download"
+		target="_blank"> Download Resume <i class="fa fa-download"></i>
+		</a>
+	</section>
+      
+	<!-- ABOUT SECTION -->
+	<div id="about" class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="heading">About Me</h2>
+            </div>
+                <div class="col-md-8">
+                    <p>
+                        I am an ambitious student striving towards my goal of working for a leading tech company upon graduation. After discovering my passion for software development, I couldn’t get enough. I’m looking forward to bringing that passion to a full-time role. I’m also fluent in English and Portuguese.
+                    </p>
+                </div>
+        </div>
+    </div>
+
+      
+	<!-- EDUCATION SECTION --> 
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Lake Washington Institute of Technology</h3>
+			<span class="education-date">2020 - 2022</span>
+			<h5>Bachelor's Degree, Computer Software Engineering</h5>
+			<p>Expected Graduation June 2022.</p>
+        </div>
+
+		
+        <div class="education-block">
+            <h3>Lake Washington Institute of Technology</h3>
+            <span class="education-date">2018 - 2020</span>
+            <h5>Associate's Degree, Computer Software Engineering, 3.82</h5>            
+        </div>
+
+
+        <div class="education-block">
+            <h3>Universidade Metodista de Piracicaba</h3>
+            <span class="education-date">2013 - 2015</span>
+            <h5>Associate's Degree, Chemical Engineering, 3.5 </h5>
+        </div>
+       
+    </div>
+      
+            
+	<!--EXPERIENCE SECTION -->   
+	<div id = "experience" class="experience-container">
+        <h2 class="heading">Experience</h2>   
+		<ul class="tl">
+			<li class="tl-item" ng-repeat="item in experience">
+				<div class="date"> Aug 2019 - Present</div>
+				<div class="item-title">ChickTech</div>
+				<div class="item-position">Website Lead</div>
+				<div class="item-detail">As a volunteer I participate on weekly meetings. Support the Seattle ACT-W website with updates and design for the annual conference.</div>
+			</li>
+			
+			<li class="tl-item" ng-repeat="item in retailer_history">
+			  <div class="date">Jan 2016 - Dec 2015</div>
+			  <div class="item-title">Cultural Care</div>
+			   <div class="item-position">Exchange Student</div>
+			  <div class="item-detail">Developed fluency in English while working as an au pair.</div>
+			</li>
+			
+			<li class="tl-item" ng-repeat="item in retailer_history">
+			  <div class="date">Feb 2014 - Dec 2015</div>
+			  <div class="item-title">Grupo Embrasa</div>
+			   <div class="item-position">Supply Chain</div>
+			  <div class="item-detail">Research, select, and purchase materials and components as needed for company functions. Build and maintain relationships with vendors. Negotiate pricing with suppliers to keep costs low. Process requisitions and update management on status of orders.</div>
+			</li>
+		</ul>
+	</div>
+
+	<!--PROJECTS SECTION -->
+	<section id="projects" class="projects-section">
+		<h2 class="heading">Projects</h2>
+
+		<div class="projects-grid">
+				<a
+				  href="https://tamiresboniolo.github.io/jairbar/"
+				  target="_blank"
+				  class="project project-tile"
+				>
+				<img
+				class="project-image"
+				src="https://user-images.githubusercontent.com/47393949/80132503-a5936680-8550-11ea-87dd-0c7024f8672d.PNG"
+				alt="project"
+			  />
+			  <p class="project-title">
+				<span class="code">&lt;</span>
+				Jair's Bar
+				<span class="code">&#47;&gt;</span>
+			  </p>
+			</a>
+			<a
+			  href="https://tamiresboniolo.github.io/future_value_calculator/"
+			  target="_blank"
+			  class="project project-tile"
+			>
+			  <img
+				class="project-image"
+				src="https://user-images.githubusercontent.com/47393949/80134126-22bfdb00-8553-11ea-82c5-470cbab076b7.png"
+				alt="project"
+			  />
+			  <p class="project-title">
+				<span class="code">&lt;</span>
+				Future Value Calculator
+				<span class="code">&#47;&gt;</span>
+			  </p>
+			</a>
+			<a
+			  href="https://squareengine.github.io/source/pages/breakOut.html"
+			  target="_blank"
+			  class="project project-tile"
+			>
+			  <img
+				class="project-image"
+				src="https://user-images.githubusercontent.com/47393949/80138576-dc21af00-8559-11ea-891e-1d5db380561a.png"
+				alt="project"
+			  />
+			  <p class="project-title">
+				<span class="code">&lt;</span>
+				BreakOut Game
+				<span class="code">&#47;&gt;</span>
+			  </p>
+			</a>
+			<a
+			  href="https://codepen.io/tamiresboniolo/full/rNOOQav"
+			  target="_blank"
+			  class="project project-tile"
+			>
+			  <img
+				class="project-image"
+				src="https://user-images.githubusercontent.com/47393949/80142376-e3e45200-855f-11ea-86ae-658cafff195f.png"
+				alt="project"
+			  />
+			  <p class="project-title">
+				<span class="code">&lt;</span>
+				JS Documentation
+				<span class="code">&#47;&gt;</span>
+			  </p>
+			</a>
+			<a
+			  href="https://codepen.io/tamiresboniolo/full/ZEbzwzR"
+			  target="_blank"
+			  class="project project-tile"
+			>
+			  <img
+				class="project-image"
+				src="https://user-images.githubusercontent.com/47393949/80142691-771d8780-8560-11ea-986f-fd8a7d02efb9.png"
+				alt="project"
+			  />
+			  <p class="project-title">
+				<span class="code">&lt;</span>
+				Survey Form
+				<span class="code">&#47;&gt;</span>
+			  </p>
+			</a>
+			<a
+			  href="https://codepen.io/tamiresboniolo/full/ExVYKRa"
+			  target="_blank"
+			  class="project project-tile"
+			>
+			  <img
+				class="project-image"
+				src="https://user-images.githubusercontent.com/47393949/80142869-bcda5000-8560-11ea-8e75-2ceb26383c91.png"
+				alt="project"
+			  />
+			  <p class="project-title">
+				<span class="code">&lt;</span>
+				User Story
+				<span class="code">&#47;&gt;</span>
+			  </p>
+			</a>
+		</div>
+		<!--Show all projects button-->	
+		<a
+			href="https://github.com/tamiresboniolo"
+			class="btn btn-show-all"
+			target="_blank"
+			>Show all<i class="fas fa-chevron-right"></i>
+		</a>
+	</section>
+
+	<!-- CONTACT SECTION -->
+	<section id="contact" class="contact-section">
+		<h2 class="heading">CONTACT</h2>
+		<p>Have a question or want to work together?</p>
+		
+		<div class="contact-links">
+			<a
+			  href="https://www.linkedin.com/in/tamiresdboniolo/"
+			  target="_blank"
+			  class="btn contact-details"
+			  ><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+			<a
+			  id="profile-link"
+			  href="https://github.com/tamiresboniolo"
+			  target="_blank"
+			  class="btn contact-details"
+			  ><i class="fab fa-github"></i> GitHub</a>
+			
+			<a href="mailto:tami-db@hotmail.com" class="btn contact-details"
+			  ><i class="fas fa-at"></i> Send a mail</a
+			>
+			<a href="tel:(425)229-8799" class="btn contact-details"
+			  ><i class="fas fa-mobile-alt"></i> Call me</a
+			>
+		</div>  
+	</section>
+
+	<!--FOOTER SECTION -->
+	<footer>
+	    <div class="footnote">
+			TAMIRES BONIOLO <span class="highlight">©2020</span>
+	    </div>
+	</footer>
+      
+</html>      
